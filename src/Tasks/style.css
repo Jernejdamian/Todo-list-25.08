@@ -1,0 +1,28 @@
+.tasks{
+    list-style-type: none;
+    padding-left: 5px;
+}
+.tasks__item{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.tasks__item--hidden{
+    display: none;
+}
+.tasks__buttons{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+.tasks__buttons--done{
+    background-color: green;
+}
+.tasks__buttons--remove{
+    background-color: red;
+}
